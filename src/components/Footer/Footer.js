@@ -1,5 +1,5 @@
-import HorizontalLine from "./HorizontalLine";
-import SocialList from './Social Media/SocialList'
+import HorizontalLine from "../Lines/HorizontalLine";
+import SocialList from '../SocialMedia/SocialList'
 
 export default function Footer() {
     return (

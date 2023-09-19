@@ -1,7 +1,7 @@
 import '../index.css';
-import Footer from '../Components/Footer'
-import ContactForm from '../Components/ContactForm';
-import IntroImage from '../Components/IntroImage';
+import Footer from '../components/Footer'
+import ContactForm from '../components/Form/ContactForm';
+import IntroImage from '../components/HeroSection';
 
 export default function Contact() {
   return (

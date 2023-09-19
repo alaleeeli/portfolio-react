@@ -1,6 +1,6 @@
 import '../index.css';
-import ProjectCard from '../Components/ProjectCard';
-import Footer from '../Components/Footer';
+import ProjectCard from '../components/Card';
+import Footer from '../components/Footer';
 
 export default function Projects() {
   return (

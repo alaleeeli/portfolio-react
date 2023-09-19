@@ -1,8 +1,8 @@
-import TopTitle from "../Components/Project pages/TopTitle";
-import LeftColumn from "../Components/Project pages/LeftColumn";
-import RightColumn from "../Components/Project pages/RightColumn";
-import DownloadButton from '../Components/DownloadButton'
-import Footer from "../Components/Footer";
+import TopTitle from "../container/ProjectPages/TopTitle";
+import LeftColumn from "../container/ProjectPages/LeftColumn";
+import RightColumn from "../container/ProjectPages/RightColumn";
+import DownloadButton from '../components/Button'
+import Footer from "../components/Footer";
 
 export default function DataScience() {
     return (
