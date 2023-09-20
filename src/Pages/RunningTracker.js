@@ -39,7 +39,7 @@ export default function RunningTracker() {
                 </div>
             </div>
 
-            <Footer />
+            <Footer title={"Follow me"} lineWidth={'3/4'}/>
         </>
     )
 }

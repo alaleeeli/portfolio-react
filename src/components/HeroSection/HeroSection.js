@@ -1,4 +1,4 @@
-export default function IntroImage({ path, title }) {
+export default function HeroSection({ path, title }) {
   return (
     <div class="relative">
       <img src={path} alt="Intro" />

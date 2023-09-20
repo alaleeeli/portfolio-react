@@ -49,7 +49,7 @@ export default function DataScience() {
                 </div>
             </div>
 
-            <Footer />
+            <Footer title={"Follow me"} lineWidth={'3/4'}/>
         </>
     )
 }

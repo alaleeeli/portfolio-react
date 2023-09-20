@@ -2,14 +2,19 @@ import '../index.css';
 import { Link } from 'react-router-dom';
 import ProjectCard from '../components/Card';
 import Footer from '../components/Footer/Footer';
-import IntroImage from '../components/HeroSection';
+import HeroSection from '../components/HeroSection';
 import ImageTextPair from '../container/ImageTextPair';
 
 export default function Home() {
   return (
     <>
-      <IntroImage path="assets/Images/IMG_2321.jpg" title="Hello Friend" />
-      <ImageTextPair />
+      <HeroSection path="assets/Images/IMG_2321.jpg" title="Hello Friend" />
+      <ImageTextPair 
+        reverse={true} 
+        title="Hi, I'm Rashed Alaleeli"
+        text="A frontend developer & Design Enthusiast"
+        image="assets/Images/developer.svg"
+        />
       
       <section className="py-5 mt-7">
 
@@ -45,7 +50,7 @@ export default function Home() {
 
       </section>
 
-      <Footer />
+      <Footer title={"Follow me"} lineWidth={'3/4'}/>
     </>
   
   );

@@ -53,7 +53,7 @@ export default function ComputerVision() {
                 </div>
             </div>
 
-            <Footer />
+            <Footer title={"Follow me"} lineWidth={'3/4'}/>
         </>
     )
 }

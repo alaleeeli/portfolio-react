@@ -44,7 +44,7 @@ export default function Projects() {
         
       </section>
 
-      <Footer />
+      <Footer title={"Follow me"} lineWidth={'3/4'}/>
       
       </>
      

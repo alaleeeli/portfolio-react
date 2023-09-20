@@ -1,12 +1,12 @@
 import '../index.css';
 import Footer from '../components/Footer'
 import ContactForm from '../components/Form/ContactForm';
-import IntroImage from '../components/HeroSection';
+import HeroSection from '../components/HeroSection';
 
 export default function Contact() {
   return (
     <>
-    <IntroImage path="assets/images/IMG_2847.jpg" title="CONTACT US" />
+    <HeroSection path="assets/images/IMG_2847.jpg" title="CONTACT US" />
     
     <section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
       <div class="container mx-auto">
@@ -33,7 +33,7 @@ export default function Contact() {
       </div>
     </section>
 
-    <Footer />
+    <Footer title={"Follow me"} lineWidth={'3/4'}/>
     </>
   
   );
